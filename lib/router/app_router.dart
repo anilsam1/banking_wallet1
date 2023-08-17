@@ -1,8 +1,7 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter_demo_structure/ui/auth/login/ui/login_page.dart';
-import 'package:flutter_demo_structure/ui/auth/sign_up/sign_up_page.dart';
-import 'package:flutter_demo_structure/ui/home/home_page.dart';
-import 'package:flutter_demo_structure/ui/splash/splash_page.dart';
+import 'package:flutter_demo_structure/ui/activity/activity_screen.dart';
+import 'package:flutter_demo_structure/ui/activity/bottom_navigation_bar.dart';
+import 'package:flutter_demo_structure/ui/statement/statement_screen.dart';
 
 part 'app_router.gr.dart';
 
@@ -16,9 +15,8 @@ class AppRouter extends _$AppRouter {
 
   @override
   final List<AutoRoute> routes = [
-    AutoRoute(page: SplashRoute.page, path: '/'),
-    AutoRoute(page: LoginRoute.page),
-    AutoRoute(page: SignUpRoute.page),
-    AutoRoute(page: HomeRoute.page),
+    AutoRoute(page: StatementRoute.page, initial: true),
+    AutoRoute(page: ActivityRoute.page),
+    AutoRoute(page: BottomNavigationBarDemoRoute.page),
   ];
 }

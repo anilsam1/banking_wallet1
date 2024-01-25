@@ -1,5 +1,10 @@
 # A Demo Structure Flutter project.
 
+## Snapshot
+<img src="https://github.com/anilsam1/banking_wallet1/assets/107168574/3cab1e13-b330-47ce-8f3c-ab8e47ca49ba" width="200" height="450">
+<img src="https://github.com/anilsam1/banking_wallet1/assets/107168574/22988b0c-b315-46f8-8769-f6940904e61c" width="200" height="450">
+<img src="https://github.com/anilsam1/banking_wallet1/assets/107168574/0230021c-f024-48af-9ef6-15295a61c081" width="200" height="450">
+
 ## Environment
 
 **Flutter version** : 3.10.x
